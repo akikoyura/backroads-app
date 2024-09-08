@@ -10,7 +10,7 @@ const Navbar = () => {
                     <i className="fas fa-bars"></i>
                 </button>
             </div>
-            <PageLinks masterClass={ 'nav-links' } childClass={ 'nav-links' }/>
+            <PageLinks masterClass={ 'nav-links' } childClass={ 'nav-link' }/>
             <NavIcons masterClass={ 'nav-icons' } childClass={ 'nav-icon' }/>
         </div>
     </nav>)
