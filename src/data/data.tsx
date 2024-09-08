@@ -1,3 +1,8 @@
+import tour1 from '../assets/tour-1.jpeg';
+import tour2 from '../assets/tour-2.jpeg';
+import tour3 from '../assets/tour-3.jpeg';
+import tour4 from '../assets/tour-4.jpeg';
+
 export const pageLinks = [
     { id: 1, href: '#home', text: 'home' },
     { id: 2, href: '#about', text: 'about' },
@@ -35,7 +40,7 @@ export const services = [
 export const tours = [
     {
         id: 1,
-        src: 'src/assets/tour-1.jpeg',
+        src: tour1,
         alt: 'tour 1',
         date: 'august 26th, 2020',
         title: 'Tibet Adventure',
@@ -46,7 +51,7 @@ export const tours = [
     },
     {
         id: 2,
-        src: 'src/assets/tour-2.jpeg',
+        src: tour2,
         alt: 'tour 2',
         date: 'october 1th, 2020',
         title: 'best of java',
@@ -57,7 +62,7 @@ export const tours = [
     },
     {
         id: 3,
-        src: 'src/assets/tour-3.jpeg',
+        src: tour3,
         alt: 'tour 3',
         date: 'september 15th, 2020',
         title: 'explore hong kong',
@@ -68,7 +73,7 @@ export const tours = [
     },
     {
         id: 4,
-        src: 'src/assets/tour-4.jpeg',
+        src: tour4,
         alt: 'tour 4',
         date: 'july 20th, 2020',
         title: 'beach paradise',
